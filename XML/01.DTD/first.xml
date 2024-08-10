@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE book [
+    <!ELEMENT book (chap+,minibook*)>
+    <!ELEMENT chap (name,no_of_pages)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT no_of_pages (#PCDATA)>
+    <!ELEMENT minibook (#PCDATA)>
+    <!ATTLIST name nickname ID #IMPLIED>
+    <!ENTITY abc  "chapter1">
+]>
+
+<book>
+
+<chap>
+    <name nickname="webs">Web designing</name>
+    <no_of_pages>20</no_of_pages>
+    
+</chap>
+<chap>
+    <name>Ui Ux</name>
+    <no_of_pages>20 &abc;</no_of_pages>
+</chap>
+<chap>
+    <name>Bootstrap</name>
+    <no_of_pages>20 &abc;</no_of_pages>
+</chap>
+
+<minibook>
+  hghjh
+</minibook>
+
+    
+</book>

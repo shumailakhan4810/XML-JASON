@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type ="text/css" href="style.css"?>
+
+<!-- first way -->
+<Details>
+    <a:title xmlns:a="http://fake1.com/anything">
+        <a:cd>Insidious</a:cd>
+    </a:title>
+
+    <b:title xmlns:b="http://fake2.com/anything">
+        <b:book>The Fault in Our Stars</b:book>
+    </b:title>
+
+</Details>
+<!-- second way  -->
+<!-- <?xml version="1.0" encoding="utf-8" ?> -->
+
+<Details 
+xmlns:a="http://fake1.com/anything"
+xmlns:b="http://fake2.com/anything"
+>
+    <a:title>
+        <a:cd>Insidious</a:cd>
+    </a:title>
+    <b:title>
+        <b:book>The Fault in Our Stars</b:book>
+    </b:title>
+</Details>

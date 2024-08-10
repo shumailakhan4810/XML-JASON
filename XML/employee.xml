@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Data>
+  <Employee id="1001">
+    <EName>faiza</EName>
+    <Empno>1200</Empno>
+    <Designation>Faculty member</Designation>
+    <Salary>1200</Salary>
+    <CNIC>42101-2345667-1</CNIC>
+  </Employee>
+  <Employee id="1002">
+    <EName>faiza</EName>
+    <Empno>1200</Empno>
+    <Designation>Academic Coordinator</Designation>
+    <Salary>1200</Salary>
+    <CNIC>42101-2345667-1</CNIC>
+  </Employee>
+  <Employee id="1003">
+    <EName>faiza</EName>
+    <Empno>1200</Empno>
+    <Designation>Faculty</Designation>
+    <Salary>1200</Salary>
+    <CNIC>42101-2345667-1</CNIC>
+  </Employee>
+</Data>
